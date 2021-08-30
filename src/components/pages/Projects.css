@@ -1,0 +1,153 @@
+.contact-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 1;
+}
+
+.wholecontainer a {
+  color: none;
+  background-color: none;
+  text-decoration: none;
+}
+.container1 {
+  padding-top: 40px;
+  padding-left: 130px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  display: inline-flex;
+  position: relative;
+}
+
+.container2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  display: inline-flex;
+  position: relative;
+}
+
+.container3 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  display: inline-flex;
+  position: relative;
+}
+
+.container4 {
+  padding-top: 20px;
+  padding-left: 130px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  display: inline-flex;
+  position: relative;
+}
+
+.container5 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  display: inline-flex;
+  position: relative;
+}
+
+.projects-content {
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.projects-content i {
+  font-size: 2rem;
+  padding: 0.5rem;
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+}
+
+.projects_title {
+  font-size: 1.25rem;
+  padding-top: 10px;
+  color: #fff;
+}
+
+.projects_description {
+  color: #fff;
+  padding-top: 10px;
+}
+
+.projects-content:hover {
+  background-color: orange;
+}
+
+@media screen and (max-width: 950px) {
+  .container1 {
+    padding-top: 40px;
+
+    padding-bottom: 20px;
+
+    
+
+    display: inline;
+    position: relative;
+  }
+
+  .container2 {
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    
+    display: inline;
+    position: relative;
+  }
+
+  .container3 {
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    
+    display: inline;
+    position: relative;
+  }
+
+  .container4 {
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    
+    display: inline;
+    position: relative;
+  }
+
+  .container5 {
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+    
+    display: inline;
+    position: relative;
+  }
+
+  .projects-content {
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+}

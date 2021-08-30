@@ -1,0 +1,195 @@
+.about-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 1;
+}
+
+.firstline {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.leftside {
+  padding-left: 20px;
+  width: 50%;
+
+  position: relative;
+  display: inline-block;
+}
+
+.leftside .frontend {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.leftside .frontend-container {
+  margin-left: 40px;
+  padding: 20px;
+  width: 90%;
+}
+
+.rightside {
+  width: 50%;
+  position: relative;
+
+  display: inline-block;
+}
+
+.rightside .backend {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.rightside .backend-container {
+  margin-left: 40px;
+  padding: 20px;
+  width: 90%;
+}
+
+.bars {
+  margin-bottom: 15px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.info span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.line {
+  height: 5px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+
+.python::before {
+  width: 70%;
+}
+
+.tkinter::before {
+  width: 80%;
+}
+
+.django::before {
+  width: 50%;
+}
+
+.sql::before {
+  width: 80%;
+}
+
+.php::before {
+  width: 60%;
+}
+
+.matlab::before {
+  width: 90%;
+}
+
+.html::before {
+  width: 90%;
+}
+
+.css::before {
+  width: 80%;
+}
+
+.node::before {
+  width: 60%;
+}
+
+.react::before {
+  width: 70%;
+}
+
+.electron::before {
+  width: 75%;
+}
+
+.word::before {
+  width: 60%;
+}
+
+.others {
+  padding-top: 20px;
+  color: #fff;
+
+  font-family: Times;
+}
+
+.others p {
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.others span {
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 950px) {
+  .firstline {
+    padding-left: none;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+  }
+  .leftside {
+    padding-left: 20px;
+    width: 100%;
+  }
+
+  .leftside .frontend {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+  }
+
+  .leftside .frontend-container {
+    margin-left: 40px;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .rightside {
+    width: 100%;
+  }
+
+  .rightside .backend {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #fff;
+  }
+
+  .rightside .backend-container {
+    margin-left: 40px;
+    padding: 20px;
+    width: 90%;
+  }
+}

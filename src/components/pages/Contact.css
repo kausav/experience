@@ -1,0 +1,225 @@
+.contact-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 1;
+}
+
+.page-name2 {
+  padding-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.details {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: #fff;
+}
+.name {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.name i {
+  font-size: 60px;
+
+  color: lavenderblush;
+}
+
+.address {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.address i {
+  font-size: 60px;
+
+  color: lavenderblush;
+}
+
+.email {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.email i {
+  font-size: 60px;
+
+  color: lavenderblush;
+}
+
+.mob {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.mob i {
+  font-size: 60px;
+
+  color: lavenderblush;
+}
+
+.ldn {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.ldn i {
+  font-size: 60px;
+
+  color: lavenderblush;
+}
+
+.indiweb {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.indiweb i {
+  font-size: 60px;
+
+  color: lavenderblush;
+}
+
+.contactinfo {
+  display: block;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.contactinfo .latest {
+  margin-left: -20px;
+}
+
+.contactinfo .latestmob {
+  margin-left: -10px;
+}
+
+.contactinfo .latestmail {
+  margin-left: -10px;
+}
+
+.contactinfo .latestname {
+  margin-left: -5px;
+}
+
+@media screen and (max-width: 950px) {
+  .name {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .name i {
+    font-size: 50px;
+
+    color: lavenderblush;
+  }
+
+  .address {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .address i {
+    font-size: 50px;
+
+    color: lavenderblush;
+  }
+
+  .email {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .email i {
+    font-size: 50px;
+
+    color: lavenderblush;
+  }
+
+  .mob {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .mob i {
+    font-size: 50px;
+
+    color: lavenderblush;
+  }
+
+  .ldn {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .ldn i {
+    font-size: 50px;
+
+    color: lavenderblush;
+  }
+
+  .indiweb {
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+  }
+
+  .indiweb i {
+    font-size: 50px;
+
+    color: lavenderblush;
+  }
+
+  .contactinfo {
+    display: block;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+
+  .contactinfo .latest {
+    margin-left: -20px;
+  }
+
+  .contactinfo .latestmob {
+    margin-left: -10px;
+  }
+
+  .contactinfo .latestmail {
+    margin-left: -10px;
+  }
+
+  .contactinfo .latestname {
+    margin-left: -5px;
+  }
+}

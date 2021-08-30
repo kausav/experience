@@ -1,0 +1,42 @@
+.skills-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  opacity: 1;
+}
+
+.page-name {
+  padding-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.page-image {
+    padding-top: 30px;
+}
+
+.page-content{
+    padding-top: 20px;
+    color: #fff;
+    
+    font-family: Times;
+}
+
+.page-content p{
+    padding-top:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.page-content span {
+  padding-left: 40px;
+}
+
+.page-content p a{
+    color: #fff;
+}
